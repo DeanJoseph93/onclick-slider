@@ -1,0 +1,511 @@
+/* =====================   CSS RESET SECTION ==== */
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0b2 | 201101 */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, menu, nav, output, ruby, section, summary, time, mark, audio,
+video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+img, iframe{vertical-align: top;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, canvas, video { display: block; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+
+
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+/*-------------------------------
+General Section
+-------------------------------*/
+
+
+body{
+    background-color: #f1f2f3;
+    font-family: 'Anton', sans-serif;
+}
+
+
+.container{
+    width: 960px;
+    margin: auto;
+}
+
+.clearFix{
+    clear:both;
+}
+
+
+/*-------------------------------
+Header Section
+-------------------------------*/
+
+/*
+.flexContainer{
+    display: flex;
+    flex-direction: row;
+}*/
+
+.topHead{
+    background-color: lightgray;
+}
+
+.leftContainer{
+    width: 297px;
+    float:left;
+}
+
+
+
+#headBoxTitle{
+    background-color: #333333;
+    height: 100px;
+}
+
+
+#headBoxTitle h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 23px;
+    text-align: center;
+    padding: 46px;
+
+}
+
+
+
+/*-------------------------------
+Nav Section
+-------------------------------*/
+
+nav li{
+    display: block;
+    width: 122px;
+    float: left;
+}
+nav a{
+    display: block;
+    font-size: 16px;
+    line-height: 31px;
+    float: left;
+    text-transform: uppercase;
+    color: #333333;
+    padding: 42px 0px 24px;
+    width: 82px;
+    text-align: center;
+   /* border-bottom: 3px solid lightgray;
+    border-right: 3px solid lightgray;*/
+    text-decoration: none;
+}
+
+.list2 a:hover{
+    border-bottom:3px solid black;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+    color: white;
+}
+
+
+
+/*-------------------------------
+Banner Section
+-------------------------------*/
+
+
+#bannerHead {
+    position: relative;
+    background-image: url("../Images/banner_main.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 335px;
+    background-size: cover;
+}
+
+
+
+
+.bannerContainer {
+    position: relative;
+    width: 960px;
+    margin: auto;
+}
+
+#galleryBull{
+    position: absolute;
+    top: 304px;
+    left: 440px;
+}
+
+.bulletPoint{
+    width: 21px;
+    height: 20px;
+    border-radius: 50%;
+    float: left;
+    background-color: #ffffff;
+    opacity: .9;
+    margin-right: 23px;
+    cursor: pointer;
+}
+
+.bulletPoint:hover{
+    background-color: #333333;
+
+}
+
+
+/*-------------------------------
+Main cL Section
+-------------------------------*/
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    width: 960px;
+    margin: auto;
+}
+
+
+.clLeft {
+    width: 297px;
+    float: left;
+}
+
+
+.list1{
+    background-color: #333333;
+    width: 297px;
+
+}
+
+
+.list {
+    color: #ffffff;
+    width: 297px;
+    line-height: 15px;
+    text-transform: uppercase;
+
+}
+
+
+.list1 a:hover {
+    background-color: lightgray;
+    border-bottom: 3px solid lightgray;
+}
+
+
+
+
+/*.clLeft {
+    width: 150px;
+    float:left;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.mainNav {
+    display: block;
+    width: 297px;
+    display: flex;
+    flex-direction: row;
+}
+
+.list{
+    background-color: #333333;
+    text-transform: uppercase;
+    color: #fff;
+    !*width: 294px;*!
+    line-height: 15px;
+}*/
+
+
+/*.list:hover {
+    background-color: lightgray;
+
+}*/
+
+
+
+
+
+.cRight {
+    width: 613px;
+    float: right;
+    margin-left: 49px;
+}
+
+main h2 {
+    font-family: "Arial", "Helvetica", sans-serif;
+    border-bottom: 1px dotted #333333;
+    font-size: 26px;
+    color: black;
+    margin-top: 23px;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+}
+
+
+main h3{
+    font-family: "Arial", "Helvetica", sans-serif;
+    border-bottom: 1px dotted #333333;
+    font-size: 26px;
+    color: black;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+}
+
+#paraMain1 {
+    font-family: "Arial", "Helvetica", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+
+.paraMain {
+    font-family: "Arial", "Helvetica", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+
+.paraMainLeaders {
+    font-family: "Arial", "Helvetica", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+
+.rightImg {
+    margin-top: 18px;
+}
+
+.vidContainer {
+    margin-top: 40px;
+}
+
+
+/*-------------------------------
+translate button Section
+-------------------------------*/
+
+.translateBtn {
+    width: 615px;
+    margin-left: -3px;
+    margin-top: 10px;
+}
+
+
+.translateBtn button {
+    width: 90px;
+}
+
+.mRight {
+    margin-right: -13px;
+}
+
+.btn {
+    font-size: 10px;
+    text-transform: capitalize;
+    /*border: none;*/
+    border-radius: 3px;
+    background-color: lightgray;
+    box-shadow: 0px 2px 4px #ccc;
+    font-weight: lighter;
+    outline: none;
+    cursor: pointer;
+    margin: 14px;
+    padding: 9px 28px;
+}
+
+
+
+/*-------------------------------
+Find Us Section
+-------------------------------*/
+
+img {
+    margin-top: -200px;
+}
+
+
+/*#mainPic {
+    position: relative;
+}*/
+
+.leftBtn{
+   float: left;
+    margin-top: -114px;
+    opacity: .9;
+}
+
+
+.btn1 {
+    font-size: 10px;
+    text-transform: capitalize;
+    /*border: none;*/
+    border-radius: 32px;
+    background-color: lightgray;
+    padding: 0px 9px;
+    font-weight: lighter;
+    outline: none;
+    cursor: pointer;
+}
+
+.rightBtn{
+    float: right;
+    margin-top: -114px;
+    opacity: .9;
+}
+
+
+
+
+
+
+.joinUs {
+    background-color: #333333;
+    margin-top: -16px;
+    height: 60px;
+    cursor: pointer;
+}
+
+
+.joinUs p {
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    padding: 21px 0px;
+    width: 297px;
+    text-transform: uppercase;
+
+}
+
+
+.findUsHeader{
+    background-color: #333333;
+    margin-top: 0px;
+    height: 60px;
+}
+
+
+
+.findUsHeader p {
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    padding: 21px 0px;
+    width: 297px;
+    text-transform: uppercase;
+
+}
+
+
+.mapCont {
+    width: 297px;
+
+}
+
+
+/*-------------------------------
+footer Section
+-------------------------------*/
+
+footer {
+    background-color: lightgray;
+    margin-top: 50px;
+}
+
+footer p {
+    font-family: "Arial", "Helvetica", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: #333333;
+    text-transform: uppercase;
+    padding: 37px;
+    font-weight: 700;
+    margin-right: 300px
+}
+
+
+
+/*----------------------------------------------------------------------------------------------------------
+
+
+
+
+/*-------------------------------
+Prem Page Section
+-------------------------------*/
+
+#bannerHeadPrem {
+    position: relative;
+    background-image: url("../prempage_images/watch-barclays-premier-league-live-online-free-banner-860x395.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 335px;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------
+General Section
+-------------------------------*/
+
+
+/*-------------------------------
+General Section
+-------------------------------*/
+
+
+/*-------------------------------
+General Section
+-------------------------------*/
+
+
+/*-------------------------------
+General Section
+-------------------------------*/
+
+
+/*-------------------------------
+General Section
+-------------------------------*/
+
+
+/*-------------------------------
+General Section
+-------------------------------*/
+
+/*-------------------------------
+General Section
+-------------------------------*/
+
+
+/*-------------------------------
+General Section
+-------------------------------*/
+
+
+/*-------------------------------
+General Section
+-------------------------------*/
